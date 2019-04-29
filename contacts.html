@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Бюро городского кадастра</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="js/bootstrap-fileinput/css/fileinput.min.css">
+    <link rel="stylesheet" href="js/bootstrap-fileinput/css/fileinput-rtl.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <div class="up-link"></div>
+    <div class="over-wrapper">
+      <div id="mobile-indicator"></div>
+      <div id="sm-indicator"></div>
+      <header>
+        <div class="header-top">
+          <div class="container">
+            <div class="row">
+              <div class="header-top-l">
+                <div class="header-logo">
+                  <div class="header-logo-pic"><img src="images/logo.png" alt="Бюро городского кадастра"></div>
+                  <div class="header-logo-text">
+                    <p>Полный комплекс услуг<br>кадастровых работ<br>для юридических лиц</p>
+                  </div>
+                </div>
+              </div>
+              <div class="header-top-r">
+                <div class="header-contacts">
+                  <div class="header-phone"><a href="tel:8 (495) 123-45-67">8 (495) 123-45-67</a></div>
+                  <div class="header-button"><a class="btn btn-1 btn-1-callback" href="#" data-toggle="modal" data-target="#callbackModal"><span class="d-none d-sm-block">Бесплатная консультация</span><span class="d-md-none">Консультация</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="container">
+            <div class="navbar-trigger"><span></span><span></span><span></span></div>
+            <div class="navbar-wrapper">
+              <div class="close"></div>
+              <ul class="nav navbar-nav">
+                <li><a href="#"><span>О&nbsp;компании</span></a></li>
+                <li><a class="active" href="#"><span>Кадастровые работы</span></a></li>
+                <li><a href="#"><span>Проектные работы</span></a></li>
+                <li><a href="#"><span>Землеустроительные работы</span></a></li>
+                <li><a href="#"><span>Градостроительный аудит</span></a></li>
+                <li><a href="#"><span>Контакты</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="page-wrapper">
+          <!-- Верхний блок-->
+          <div class="section section-top">
+            <div class="section-content">
+              <div class="container">
+                <ul class="breadcrumb">
+                  <li><a href="#">Главная</a></li>
+                  <li>Контакты</li>
+                </ul>
+                <h1>Контакты</h1>
+              </div>
+              <div class="top-contacts">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-md-5 col-lg-4">
+                      <div class="top-contacts-descr">
+                        <div class="contacts-phone"><a href="tel:8 (495) 740-30-92">8 (495) 740-30-92</a></div>
+                        <p><a href="mailto:info@burogk.ru">info@burogk.ru</a></p>
+                        <p>127006, Россия, Москва<br>БЦ “Дмитровка”</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-contacts-map" id="topContactsMap"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Верхний блок END-->
+          <!-- Как добраться-->
+          <div class="section section-get">
+            <div class="section-content">
+              <div class="container">
+                <div class="section-header">
+                  <div class="h2">Как добраться</div>
+                </div>
+                <div class="get-list">
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <div class="get-tmb">
+                        <div class="get-tmb-pic"><img src="images/get-1.jpg"></div>
+                        <div class="get-tmb-descr">
+                          <div class="get-tmb-num">01</div>
+                          <div class="h3">Общественным транспортом</div>
+                          <p>Вы получите квалифицированную помощь в решении проблемы, основанную на успешном опыте. Мы на практике понимаем задачи клиентов и знаем пути их решения. Вы получите квалифицированную помощь.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="get-tmb">
+                        <div class="get-tmb-pic"><img src="images/get-2.jpg"></div>
+                        <div class="get-tmb-descr">
+                          <div class="get-tmb-num">02</div>
+                          <div class="h3">На автомобиле</div>
+                          <p>Вы получите квалифицированную помощь в решении проблемы, основанную на успешном опыте. Мы на практике понимаем задачи клиентов и знаем пути их решения.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Как добраться END-->
+        </div>
+      </div>
+      <footer>
+        <!-- Вопросы-->
+        <div class="section section-order section-question">
+          <div class="section-content">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-4 col-xl-3">
+                  <div class="section-header">
+                    <div class="h2">У вас возникли вопросы?</div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-8 col-xl-9">
+                  <div class="order-form">
+                    <form>
+                      <div class="row">
+                        <div class="col-12 order-form-col-1">
+                          <div class="form-group">
+                            <label class="placeholder" for="question_name">Ваше имя</label>
+                            <input type="text" name="question_name" id="question_name" required>
+                          </div>
+                        </div>
+                        <div class="col-12 order-form-col-2">
+                          <div class="form-group">
+                            <label class="placeholder" for="question_phone">+7 (XXX) XXX-XX-XX</label>
+                            <input class="input-phone" type="text" name="question_phone" id="question_phone" required>
+                          </div>
+                        </div>
+                        <div class="col-12 order-form-col-3">
+                          <div class="form-footer">
+                            <button class="btn btn-1" type="submit">Отправить</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-agree">
+                        <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a>  </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Вопросы END-->
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                <div class="footer-logo">
+                  <div class="footer-logo-pic"><img src="images/logo.png" alt="Бюро городского кадастра"></div>
+                  <div class="footer-logo-text">
+                    <p>Полный комплекс услуг кадастровых работ для&nbsp;юридических лиц</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 col-xl-4">
+                <ul class="footer-menu">
+                  <li><a href="#about">Кадастровые работы</a></li>
+                  <li><a href="#team">Проектные работы</a></li>
+                  <li><a href="#reviews">Геодезические и&nbsp;землеустроительные работы</a></li>
+                  <li><a href="#contacts">Оспаривание кадастровой стоимости</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="footer-phone-wrapper"><span class="footer-phone"><a href="tel:8 (495) 123-45-67">8 (495) 123-45-67</a></span><a href="#" data-toggle="modal" data-target="#callbackModal">Заказать звонок</a></div>
+                <div class="footer-copy">
+                  <p>&copy; Бюро Городского кадастра, 2018. Все права защищены.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="modal fade form-modal" id="callbackModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Заказать бесплатную консультацию</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-form callback-form">
+                <form id="callbackForm">
+                  <div class="row">
+                    <div class="col modal-form-col-1">
+                      <div class="form-group">
+                        <label class="placeholder" for="callback_name">Ваше имя</label>
+                        <input type="text" name="callback_name" id="callback_name" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-2">
+                      <div class="form-group">
+                        <label class="placeholder" for="callback_phone">+7 (XXX) XXX-XX-XX</label>
+                        <input class="input-phone" type="text" name="callback_phone" id="callback_phone" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-3">
+                      <div class="form-footer">
+                        <button class="btn btn-1 btn-1-big" type="submit">Отправить</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-agree">
+                    <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="offerModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Запросить коммерческое предложение</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-form offer-form">
+                <form id="offerForm">
+                  <div class="row">
+                    <div class="col modal-form-col-1">
+                      <div class="form-group">
+                        <label class="placeholder" for="offer_name">Ваше имя</label>
+                        <input type="text" name="offer_name" id="offer_name" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-2">
+                      <div class="form-group">
+                        <label class="placeholder" for="offer_phone">+7 (XXX) XXX-XX-XX</label>
+                        <input class="input-phone" type="text" name="offer_phone" id="offer_phone" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-3">
+                      <div class="form-footer">
+                        <button class="btn btn-1 btn-1-big" type="submit">Отправить</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-agree">
+                    <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="tenderModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Пригласить в&nbsp;тендер</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-form tender-form">
+                <form id="tenderForm">
+                  <div class="row">
+                    <div class="col modal-form-col-1">
+                      <div class="form-group">
+                        <label class="placeholder" for="tender_name">Ваше имя</label>
+                        <input type="text" name="tender_name" id="tender_name" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-2">
+                      <div class="form-group">
+                        <label class="placeholder" for="tender_phone">+7 (XXX) XXX-XX-XX</label>
+                        <input class="input-phone" type="text" name="tender_phone" id="tender_phone" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-3">
+                      <div class="form-footer">
+                        <button class="btn btn-1 btn-1-big" type="submit">Отправить</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-agree">
+                    <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="serviceModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Рассчитать стоимость</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-form service-form">
+                <form id="serviceForm">
+                  <input type="hidden" name="service_type" id="service_type">
+                  <div class="row">
+                    <div class="col modal-form-col-1">
+                      <div class="form-group">
+                        <label class="placeholder" for="service_name">Ваше имя</label>
+                        <input type="text" name="service_name" id="service_name" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-2">
+                      <div class="form-group">
+                        <label class="placeholder" for="service_phone">+7 (XXX) XXX-XX-XX</label>
+                        <input class="input-phone" type="text" name="service_phone" id="service_phone" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-3">
+                      <div class="form-footer">
+                        <button class="btn btn-1 btn-1-big" type="submit">Отправить</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-agree">
+                    <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade success-modal" id="successModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Ваша заявка успешно принята!</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Юрист свяжется с&nbsp;вами в&nbsp;течение 15&nbsp;минут.</p>
+              <div class="success-modal-button">
+                <button class="btn btn-1 btn-1-big" type="button" data-dismiss="modal" aria-label="Close">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/additional-methods.min.js"></script>
+      <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/wNumb.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+      <script src="js/bootstrap-fileinput/js/fileinput.min.js"></script>
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Бюро городского кадастра</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="js/bootstrap-fileinput/css/fileinput.min.css">
+    <link rel="stylesheet" href="js/bootstrap-fileinput/css/fileinput-rtl.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <div class="up-link"></div>
+    <div class="over-wrapper">
+      <div id="mobile-indicator"></div>
+      <div id="sm-indicator"></div>
+      <header>
+        <div class="header-top">
+          <div class="container">
+            <div class="row">
+              <div class="header-top-l">
+                <div class="header-logo">
+                  <div class="header-logo-pic"><img src="images/logo.png" alt="Бюро городского кадастра"></div>
+                  <div class="header-logo-text">
+                    <p>Полный комплекс услуг<br>кадастровых работ<br>для юридических лиц</p>
+                  </div>
+                </div>
+              </div>
+              <div class="header-top-r">
+                <div class="header-contacts">
+                  <div class="header-phone"><a href="tel:8 (495) 123-45-67">8 (495) 123-45-67</a></div>
+                  <div class="header-button"><a class="btn btn-1 btn-1-callback" href="#" data-toggle="modal" data-target="#callbackModal"><span class="d-none d-sm-block">Бесплатная консультация</span><span class="d-md-none">Консультация</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="container">
+            <div class="navbar-trigger"><span></span><span></span><span></span></div>
+            <div class="navbar-wrapper">
+              <div class="close"></div>
+              <ul class="nav navbar-nav">
+                <li><a href="#"><span>О&nbsp;компании</span></a></li>
+                <li><a class="active" href="#"><span>Кадастровые работы</span></a></li>
+                <li><a href="#"><span>Проектные работы</span></a></li>
+                <li><a href="#"><span>Землеустроительные работы</span></a></li>
+                <li><a href="#"><span>Градостроительный аудит</span></a></li>
+                <li><a href="#"><span>Контакты</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="page-wrapper">
+          <!-- Верхний блок-->
+          <div class="section section-top">
+            <div class="section-content">
+              <div class="section-top-top">
+                <div class="section-top-pic" style="background-image:url(files/services-pic.jpg);"></div>
+                <div class="container">
+                  <div class="section-top-descr">
+                    <ul class="breadcrumb">
+                      <li><a href="#">Главная</a></li>
+                      <li>Кадастровые работы</li>
+                    </ul>
+                    <h1>Кадастровые работы</h1>
+                    <p>Выполнение комплексных кадастровых работ в минимальные сроки с гарантией положительного результата. Итогом оказания является внесение изменений в ЕГРН.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="h2">Об услуге</div>
+                <div class="top-lead">
+                  <div class="row">
+                    <div class="col-12 col-md-6 order-xs-2 order-md-1">
+                      <div class="top-lead-pic">
+                        <div class="top-lead-pic-ico">
+                          <div class="top-lead-pic-ico-num">01</div><img src="files/top-lead-pic-ico-2.jpg">
+                        </div><img src="files/top-lead-pic-2.jpg">
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 order-xs-1 order-md-2">
+                      <div class="top-lead-descr">
+                        <p>За годы работы наша Команда  зарекомендовала себя как надежный партнер, накопила необходимый практический опыт и знания для реализации сложных проектов. Многие наши партнеры обратившись к нам впервые, остались с нами на многие годы. Сегодня мы реализуем полный спектр услуг в сфере эксплуатации, проектирования и кадастравого учета.</p>
+                        <p>Наши сотрудники - професионалы с многолетним опытом работыв крупнейших российских строительных компаниях и государственных органах.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Верхний блок END-->
+          <!-- Закажите оценку-->
+          <div class="section section-order">
+            <div class="section-content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-4 col-xl-3">
+                    <div class="section-header">
+                      <div class="h2">Закажите оценку</div>
+                      <div class="sub-ttl">стоимости работ по&nbsp;вашей задаче</div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-8 col-xl-9">
+                    <div class="order-form">
+                      <form>
+                        <div class="row">
+                          <div class="col-12 order-form-col-1">
+                            <div class="form-group">
+                              <label class="placeholder" for="order_name">Ваше имя</label>
+                              <input type="text" name="order_name" id="order_name" required>
+                            </div>
+                          </div>
+                          <div class="col-12 order-form-col-2">
+                            <div class="form-group">
+                              <label class="placeholder" for="order_phone">+7 (XXX) XXX-XX-XX</label>
+                              <input class="input-phone" type="text" name="order_phone" id="order_phone" required>
+                            </div>
+                          </div>
+                          <div class="col-12 order-form-col-3">
+                            <div class="form-footer">
+                              <button class="btn btn-1" type="submit">Отправить</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-agree">
+                          <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Закажите оценку END-->
+          <!-- Контент-->
+          <div class="page-content">
+            <div class="container">
+              <div class="h2">Выполняемые работы</div>
+              <div class="works-list">
+                <div class="row">
+                  <div class="col-12 col-md-4"><a class="work-tmb" href="#">
+                      <div class="work-tmb-pic"><img src="files/work-4.jpg"></div>
+                      <div class="work-tmb-descr">
+                        <div class="work-tmb-num">01</div>
+                        <div class="h3">Технический план</div>
+                        <p>Вы получите квалифицированную помощь в решении проблемы, основанную на успешном опыте. Мы на практике понимаем задачи клиентов и знаем пути их решения.</p>
+                      </div></a></div>
+                  <div class="col-12 col-md-4"><a class="work-tmb" href="#">
+                      <div class="work-tmb-pic"><img src="files/work-5.jpg"></div>
+                      <div class="work-tmb-descr">
+                        <div class="work-tmb-num">02</div>
+                        <div class="h3">Межевой план</div>
+                        <p>Вы получите квалифицированную помощь в решении проблемы, основанную на успешном опыте. Мы на практике понимаем задачи клиентов и знаем пути их решения.</p>
+                      </div></a></div>
+                  <div class="col-12 col-md-4"><a class="work-tmb" href="#">
+                      <div class="work-tmb-pic"><img src="files/work-6.jpg"></div>
+                      <div class="work-tmb-descr">
+                        <div class="work-tmb-num">03</div>
+                        <div class="h3">Акт обследования</div>
+                        <p>Вы получите квалифицированную помощь в решении проблемы, основанную на успешном опыте. Мы на практике понимаем задачи клиентов и знаем пути их решения.</p>
+                      </div></a></div>
+                  <div class="col-12 col-md-4"><a class="work-tmb" href="#">
+                      <div class="work-tmb-pic"><img src="files/work-7.jpg"></div>
+                      <div class="work-tmb-descr">
+                        <div class="work-tmb-num">04</div>
+                        <div class="h3">Согласование перепланировок</div>
+                        <p>Основанную на успешном опыте. Мы на практике понимаем задачи клиентов и знаем пути их решения.</p>
+                      </div></a></div>
+                  <div class="col-12 col-md-4"><a class="work-tmb" href="#">
+                      <div class="work-tmb-pic"><img src="files/work-8.jpg"></div>
+                      <div class="work-tmb-descr">
+                        <div class="work-tmb-num">05</div>
+                        <div class="h3">Постановка н&nbsp;кадастровый учет</div>
+                        <p>Мы на практике понимаем задачи клиентов и знаем пути их решения.</p>
+                      </div></a></div>
+                </div>
+              </div>
+              <div class="h2">Кадастровые работы в БЮРО ГОРОДСКОГО КАДАСТРА</div>
+              <p>Выполнение комплексных кадастровых работ в минимальные сроки с гарантией положительного результата. Итогом оказания является внесение изменений в ЕГРН. Проведение обследования зданий и помещений на предмет выявления проведенных перепланировок (реконструкций), именений фасадов зданий. Поиск проектных решений для их дальнейших согласований.</p>
+              <p>Выполнение полного цикла работ по межеванию и координированию. Выполнение проекта под ключ, до внесения сведений в ЕГРН. Выполнение комплексных кадастровых работ в минимальные сроки с гарантией положительного результата. Итогом оказания является внесение изменений в ЕГРН. Проведение обследования зданий и помещений на предмет выявления проведенных перепланировок (реконструкций), именений фасадов зданий.</p>
+              <p>Поиск проектных решений для их дальнейших согласований. Выполнение полного цикла работ по межеванию и координированию. Выполнение проекта под ключ, до внесения сведений в ЕГРН.</p>
+              <div class="article-block">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="article-pic"><img src="files/article-pic-1.jpg"></div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <p>Выполнение комплексных кадастровых работ в минимальные сроки с гарантией положительного результата. Итогом оказания является внесение изменений в ЕГРН. Проведение обследования зданий и помещений на предмет выявления проведенных перепланировок (реконструкций), именений фасадов зданий. Поиск проектных решений для их дальнейших согласований.</p>
+                    <p>Выполнение полного цикла работ по межеванию и координированию. Выполнение проекта под ключ, до внесения сведений в ЕГРН. Выполнение комплексных кадастровых работ в минимальные сроки с гарантией положительного результата. Итогом оказания является внесение изменений в ЕГРН.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="article-block">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <ul>
+                      <li>Выполнение комплексных кадастровых работ в минимальные сроки с гарантией положительного результата.</li>
+                      <li>Итогом оказания является внесение изменений в ЕГРН. Проведение обследования зданий и помещений на предмет выявления проведенных перепланировок (реконструкций), именений фасадов зданий.</li>
+                      <li>Поиск проектных решений для их дальнейших согласований.</li>
+                      <li>Выполнение комплексных кадастровых работ в минимальные сроки с гарантией положительного результата.</li>
+                      <li>Итогом оказания является внесение изменений в ЕГРН.</li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="article-pic"><img src="files/article-pic-2.jpg"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Контент END-->
+          <!-- Консультация инженера-->
+          <div class="section section-order section-consult">
+            <div class="section-content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-4 col-xl-3">
+                    <div class="section-header">
+                      <div class="h2">Консультация инженера <span>бесплатно!</span></div>
+                      <div class="sub-ttl">Наши кадастровые инженеры оперативно предоставят Вам консультацию по всем вопросам!</div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-8 col-xl-9">
+                    <div class="order-form">
+                      <form>
+                        <div class="row">
+                          <div class="col-12 order-form-col-1">
+                            <div class="form-group">
+                              <label class="placeholder" for="consult_name">Ваше имя</label>
+                              <input type="text" name="consult_name" id="consult_name" required>
+                            </div>
+                          </div>
+                          <div class="col-12 order-form-col-2">
+                            <div class="form-group">
+                              <label class="placeholder" for="consult_phone">+7 (XXX) XXX-XX-XX</label>
+                              <input class="input-phone" type="text" name="consult_phone" id="consult_phone" required>
+                            </div>
+                          </div>
+                          <div class="col-12 order-form-col-3">
+                            <div class="form-footer">
+                              <button class="btn btn-1" type="submit">Отправить</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-agree">
+                          <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Консультация инженера END                -->
+          <!-- Почему мы-->
+          <div class="section section-why">
+            <div class="section-content">
+              <div class="container">
+                <div class="section-header">
+                  <div class="h2">Почему мы?</div>
+                </div>
+                <div class="why-list">
+                  <div class="row">
+                    <div class="col-12 col-md-4">
+                      <div class="why-tmb">
+                        <div class="why-tmb-pic"><img src="images/why-1.png"></div>
+                        <div class="why-tmb-descr">
+                          <div class="why-tmb-num">01</div>
+                          <div class="h3">Опыт и&nbsp;профессионализм</div>
+                          <p>Вы получите квалифицированную помощь в решении проблемы, основанную на успешном опыте. Мы на практике понимаем задачи клиентов и знаем пути их решения.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="why-tmb">
+                        <div class="why-tmb-pic"><img src="images/why-2.png"></div>
+                        <div class="why-tmb-descr">
+                          <div class="why-tmb-num">02</div>
+                          <div class="h3">Порядочность, уважение и&nbsp;ответственность</div>
+                          <p>Вы можете рассчитывать на предельно доверительное отношение и партнерство. Мы с уважением относимся к каждому клиенту и всегда отвечаем за сказанное.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="why-tmb">
+                        <div class="why-tmb-pic"><img src="images/why-3.png"></div>
+                        <div class="why-tmb-descr">
+                          <div class="why-tmb-num">03</div>
+                          <div class="h3">Креативность и&nbsp;комплексные решения</div>
+                          <p>Вы можете быть уверены в возможности получения нестандартных решений. Выход из сложных ситуаций можно найти всегда. Главное, знать в каком направлении двигаться. Мы его находим в 100% случаев.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Почему мы END-->
+          <!-- Как мы работаем-->
+          <div class="section section-how">
+            <div class="section-content">
+              <div class="container">
+                <div class="section-header">
+                  <div class="h2">Как мы работаем</div>
+                </div>
+                <div class="works-list">
+                  <div class="row">
+                    <div class="col-12 col-md-4">
+                      <div class="work-tmb">
+                        <div class="work-tmb-pic"><img src="files/how-1.jpg"></div>
+                        <div class="work-tmb-descr">
+                          <div class="work-tmb-num">01</div>
+                          <div class="h3">Обсуждение проблемы, стоящей перед клиентом</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="work-tmb">
+                        <div class="work-tmb-pic"><img src="files/how-2.jpg"></div>
+                        <div class="work-tmb-descr">
+                          <div class="work-tmb-num">02</div>
+                          <div class="h3">Анализ ситуации, запрос необходимой информации</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="work-tmb">
+                        <div class="work-tmb-pic"><img src="files/how-3.jpg"></div>
+                        <div class="work-tmb-descr">
+                          <div class="work-tmb-num">03</div>
+                          <div class="h3">Определение возможных вариантов решения. Анализ плюсов и минусов каждого варианта</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="work-tmb">
+                        <div class="work-tmb-pic"><img src="files/how-4.jpg"></div>
+                        <div class="work-tmb-descr">
+                          <div class="work-tmb-num">04</div>
+                          <div class="h3">Совместное обсуждение и выбор оптимального решения</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="work-tmb">
+                        <div class="work-tmb-pic"><img src="files/how-5.jpg"></div>
+                        <div class="work-tmb-descr">
+                          <div class="work-tmb-num">05</div>
+                          <div class="h3">Реализация проекта</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="work-final">
+                        <div class="work-final-pic"><img src="images/ico-work-final.png"></div>
+                        <div class="work-final-descr">
+                          <p>Стоимость работ формируется в зависимости от&nbsp;сложности и объема поставленной задачи</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Как мы работаем END-->
+          <!-- Партнеры-->
+          <div class="section section-slider section-partners">
+            <div class="section-content">
+              <div class="container">
+                <div class="section-header">
+                  <div class="h2">Наши партнеры</div>
+                </div>
+                <div class="custom-slider-wrapper partners-slider-wrapper">
+                  <div class="custom-slider partners-slider">
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-1.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-2.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-3.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-4.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-5.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-6.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-1.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-2.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-3.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-4.png"></div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content"><img src="files/partner-5.png"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Партнеры END-->
+          <!-- SEO-текст-->
+          <div class="section section-text">
+            <div class="section-content">
+              <div class="container">
+                <div class="h2">Технический план в БЮРО ГОРОДСКОГО КАДАСТРА</div>
+                <p>Выполнение комплексных кадастровых работ в минимальные сроки с гарантией положительного результата. Итогом оказания является внесение изменений в ЕГРН. Проведение обследования зданий и помещений на предмет выявления проведенных перепланировок (реконструкций), именений фасадов зданий. Поиск проектных решений для их дальнейших согласований. Выполнение полного цикла работ по межеванию и координированию. Выполнение проекта под ключ, до внесения сведений в ЕГРН. Выполнение комплексных кадастровых работ в минимальные сроки с гарантией положительного результата. Итогом оказания является внесение изменений в ЕГРН. Проведение обследования зданий и помещений на предмет выявления проведенных перепланировок (реконструкций), именений фасадов зданий. Поиск проектных решений для их дальнейших согласований. Выполнение полного цикла работ по межеванию и координированию. Выполнение проекта под ключ, до внесения сведений в ЕГРН.</p>
+              </div>
+            </div>
+          </div>
+          <!-- SEO-текст END-->
+        </div>
+      </div>
+      <footer>
+        <!-- Вопросы-->
+        <div class="section section-order section-question">
+          <div class="section-content">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-4 col-xl-3">
+                  <div class="section-header">
+                    <div class="h2">У вас возникли вопросы?</div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-8 col-xl-9">
+                  <div class="order-form">
+                    <form>
+                      <div class="row">
+                        <div class="col-12 order-form-col-1">
+                          <div class="form-group">
+                            <label class="placeholder" for="question_name">Ваше имя</label>
+                            <input type="text" name="question_name" id="question_name" required>
+                          </div>
+                        </div>
+                        <div class="col-12 order-form-col-2">
+                          <div class="form-group">
+                            <label class="placeholder" for="question_phone">+7 (XXX) XXX-XX-XX</label>
+                            <input class="input-phone" type="text" name="question_phone" id="question_phone" required>
+                          </div>
+                        </div>
+                        <div class="col-12 order-form-col-3">
+                          <div class="form-footer">
+                            <button class="btn btn-1" type="submit">Отправить</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-agree">
+                        <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a>  </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Вопросы END-->
+        <!-- Контакты-->
+        <div class="section section-contacts">
+          <div class="section-content">
+            <div class="contacts-map" id="contactsMap"></div>
+            <div class="container">
+              <div class="contacts-descr">
+                <div class="contacts-phone"><a href="tel:8 (495) 740-30-92">8 (495) 740-30-92</a></div>
+                <p><a href="mailto:info@burogk.ru">info@burogk.ru</a></p>
+                <p>Офис Бюро городского кадастра<br>БЦ “Дмитровка”<br>127006, Россия, Москва</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Контакты END-->
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                <div class="footer-logo">
+                  <div class="footer-logo-pic"><img src="images/logo.png" alt="Бюро городского кадастра"></div>
+                  <div class="footer-logo-text">
+                    <p>Полный комплекс услуг кадастровых работ для&nbsp;юридических лиц</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 col-xl-4">
+                <ul class="footer-menu">
+                  <li><a href="#about">Кадастровые работы</a></li>
+                  <li><a href="#team">Проектные работы</a></li>
+                  <li><a href="#reviews">Геодезические и&nbsp;землеустроительные работы</a></li>
+                  <li><a href="#contacts">Оспаривание кадастровой стоимости</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="footer-phone-wrapper"><span class="footer-phone"><a href="tel:8 (495) 123-45-67">8 (495) 123-45-67</a></span><a href="#" data-toggle="modal" data-target="#callbackModal">Заказать звонок</a></div>
+                <div class="footer-copy">
+                  <p>&copy; Бюро Городского кадастра, 2018. Все права защищены.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="modal fade form-modal" id="callbackModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Заказать бесплатную консультацию</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-form callback-form">
+                <form id="callbackForm">
+                  <div class="row">
+                    <div class="col modal-form-col-1">
+                      <div class="form-group">
+                        <label class="placeholder" for="callback_name">Ваше имя</label>
+                        <input type="text" name="callback_name" id="callback_name" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-2">
+                      <div class="form-group">
+                        <label class="placeholder" for="callback_phone">+7 (XXX) XXX-XX-XX</label>
+                        <input class="input-phone" type="text" name="callback_phone" id="callback_phone" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-3">
+                      <div class="form-footer">
+                        <button class="btn btn-1 btn-1-big" type="submit">Отправить</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-agree">
+                    <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="offerModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Запросить коммерческое предложение</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-form offer-form">
+                <form id="offerForm">
+                  <div class="row">
+                    <div class="col modal-form-col-1">
+                      <div class="form-group">
+                        <label class="placeholder" for="offer_name">Ваше имя</label>
+                        <input type="text" name="offer_name" id="offer_name" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-2">
+                      <div class="form-group">
+                        <label class="placeholder" for="offer_phone">+7 (XXX) XXX-XX-XX</label>
+                        <input class="input-phone" type="text" name="offer_phone" id="offer_phone" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-3">
+                      <div class="form-footer">
+                        <button class="btn btn-1 btn-1-big" type="submit">Отправить</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-agree">
+                    <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="tenderModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Пригласить в&nbsp;тендер</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-form tender-form">
+                <form id="tenderForm">
+                  <div class="row">
+                    <div class="col modal-form-col-1">
+                      <div class="form-group">
+                        <label class="placeholder" for="tender_name">Ваше имя</label>
+                        <input type="text" name="tender_name" id="tender_name" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-2">
+                      <div class="form-group">
+                        <label class="placeholder" for="tender_phone">+7 (XXX) XXX-XX-XX</label>
+                        <input class="input-phone" type="text" name="tender_phone" id="tender_phone" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-3">
+                      <div class="form-footer">
+                        <button class="btn btn-1 btn-1-big" type="submit">Отправить</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-agree">
+                    <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="serviceModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Рассчитать стоимость</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-form service-form">
+                <form id="serviceForm">
+                  <input type="hidden" name="service_type" id="service_type">
+                  <div class="row">
+                    <div class="col modal-form-col-1">
+                      <div class="form-group">
+                        <label class="placeholder" for="service_name">Ваше имя</label>
+                        <input type="text" name="service_name" id="service_name" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-2">
+                      <div class="form-group">
+                        <label class="placeholder" for="service_phone">+7 (XXX) XXX-XX-XX</label>
+                        <input class="input-phone" type="text" name="service_phone" id="service_phone" required>
+                      </div>
+                    </div>
+                    <div class="col modal-form-col-3">
+                      <div class="form-footer">
+                        <button class="btn btn-1 btn-1-big" type="submit">Отправить</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-agree">
+                    <p>Нажимая кнопку «Отправить» вы даете свое согласией на&nbsp;обработку ваших персональных данных согласно <a href="#">Пользовательскому соглашению</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade success-modal" id="successModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="h2">Ваша заявка успешно принята!</div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Юрист свяжется с&nbsp;вами в&nbsp;течение 15&nbsp;минут.</p>
+              <div class="success-modal-button">
+                <button class="btn btn-1 btn-1-big" type="button" data-dismiss="modal" aria-label="Close">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/additional-methods.min.js"></script>
+      <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/wNumb.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+      <script src="js/bootstrap-fileinput/js/fileinput.min.js"></script>
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>
